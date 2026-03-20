@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Modern Typography: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Collins<span>Kisia</span>.</a>
+            <ul class="nav-links">
+                <li><a href="#about">1. ABOUT ME</a></li>
+                <li><a href="#skills">2. MY SKILLS</a></li>
+                <li><a href="#services">3. SERVICES</a></li>
+                <li><a href="#contact" class="btn btn-primary btn-sm">4. CONTACT ME</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="section hero-section reveal" style="position: relative; overflow: hidden;">
+        <!-- Captivating Background Blobs -->
+        <div class="blob-container">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+        <div class="hero-content" style="position: relative; z-index: 2;">
+            <p class="greeting">Hi, my name is</p>
+            <h1 class="name">Collins Kisia.</h1>
+            <h2 class="title">I build things for the web.</h2>
+            <p class="description">
+                I am a Bachelor of Science in Computer Science student at Mount Kenya University with a strong passion
+                for software development and technology. I enjoy building responsive and user-friendly web applications.
+            </p>
+            <div class="hero-cta">
+                <a href="#about" class="btn btn-primary">More about me</a>
+                <a href="https://github.com/mrnkisia-alt" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-outline">GitHub Profile</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section reveal">
+        <div class="section-header">
+            <h2 class="section-title">01. About Me</h2>
+            <div class="line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! My name is Collins Kisia. I am a Bachelor of Science in Computer Science student at Mount
+                    Kenya University with a strong passion for software development and technology.</p>
+                <p>I have practical experience in web design using HTML, CSS, and JavaScript, and I am well-versed in
+                    programming languages such as C and Python. I enjoy building responsive and user-friendly web
+                    applications, and I continuously work on improving my coding skills through hands-on projects. My
+                    GitHub portfolio showcases my development work and ongoing learning journey.</p>
+            </div>
+            <div class="about-image">
+                <div class="img-wrapper">
+                    <img src="photo_2026-03-20_11-46-59.jpg" alt="Collins Kisia" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section reveal">
+        <div class="section-header">
+            <h2 class="section-title">02. My Skills</h2>
+            <div class="line"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Core Languages</h3>
+                <ul class="skill-list">
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>JavaScript (ES6+)</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Web Development</h3>
+                <ul class="skill-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Responsive Design</li>
+                    <li>Web Design</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Others</h3>
+                <ul class="skill-list">
+                    <li>Git & GitHub</li>
+                    <li>VS Code</li>
+                    <li>Terminal</li>
+                    <li>Problem Solving</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services-section reveal">
+        <div class="section-header">
+            <h2 class="section-title">03. Services</h2>
+            <div class="line"></div>
+        </div>
+        <div class="services-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px;">
+            <div class="skill-category" style="text-align: left; display: flex; flex-direction: column;">
+                <i class="ph-fill ph-code" style="font-size: 3rem; color: var(--primary); margin-bottom: 24px;"></i>
+                <h3 style="color: var(--text-main); margin-bottom: 16px; font-size: 1.25rem;">Web Development</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin: 0;">Building responsive, fast, and accessible web applications using modern HTML, CSS, JavaScript, and frameworks.</p>
+            </div>
+            
+            <div class="skill-category" style="text-align: left; display: flex; flex-direction: column;">
+                <i class="ph-fill ph-device-mobile" style="font-size: 3rem; color: var(--accent); margin-bottom: 24px;"></i>
+                <h3 style="color: var(--text-main); margin-bottom: 16px; font-size: 1.25rem;">Responsive Design</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin: 0;">Creating seamless interfaces that adapt beautifully across all screen sizes, from mobile phones to ultra-wide monitors.</p>
+            </div>
+            
+            <div class="skill-category" style="text-align: left; display: flex; flex-direction: column;">
+                <i class="ph-fill ph-terminal-window" style="font-size: 3rem; color: #8b5cf6; margin-bottom: 24px;"></i>
+                <h3 style="color: var(--text-main); margin-bottom: 16px; font-size: 1.25rem;">Backend & Scripting</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin: 0;">Writing robust server-side logic and custom automation scripts using Python and C to efficiently power user experiences.</p>
+            </div>
+            
+            <div class="skill-category" style="text-align: left; display: flex; flex-direction: column;">
+                <i class="ph-fill ph-pencil-line" style="font-size: 3rem; color: #f59e0b; margin-bottom: 24px;"></i>
+                <h3 style="color: var(--text-main); margin-bottom: 16px; font-size: 1.25rem;">UI/UX Design</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin: 0;">Designing intuitive, minimal, and user-centric wireframes and high-fidelity prototypes using Figma.</p>
+            </div>
+            
+            <div class="skill-category" style="text-align: left; display: flex; flex-direction: column;">
+                <i class="ph-fill ph-browsers" style="font-size: 3rem; color: #0ea5e9; margin-bottom: 24px;"></i>
+                <h3 style="color: var(--text-main); margin-bottom: 16px; font-size: 1.25rem;">Frontend Development</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin: 0;">Translating beautiful designs into highly interactive, accessible, and performant user interfaces.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section reveal">
+        <div class="contact-content">
+            <p class="contact-pre">04. What's Next?</p>
+            <h2 class="contact-title">Get In Touch</h2>
+            <p class="contact-desc">
+                I'm currently open for new opportunities and collaborations. Feel free to reach out to me via WhatsApp,
+                Social Media, or just drop a message! Let's build something amazing together.
+            </p>
+            <div class="social-links-container">
+                <a href="mailto:collinskisia3@gmail.com" title="Email" class="social-icon email"><i
+                        class="ph-fill ph-envelope-simple"></i></a>
+                <a href="https://wa.me/254706515679" target="_blank" rel="noopener noreferrer" title="WhatsApp (Main)"
+                    class="social-icon whatsapp"><i class="ph-fill ph-whatsapp-logo"></i></a>
+                <a href="https://wa.me/254748856896" target="_blank" rel="noopener noreferrer" title="WhatsApp (Alt)"
+                    class="social-icon whatsapp"><i class="ph-fill ph-whatsapp-logo"></i></a>
+                <a href="https://t.me/+254706515679" target="_blank" rel="noopener noreferrer" title="Telegram"
+                    class="social-icon telegram"><i class="ph-fill ph-telegram-logo"></i></a>
+                <a href="https://ke.linkedin.com/in/collins-kisia-b9503b3b3" target="_blank" rel="noopener noreferrer"
+                    title="LinkedIn" class="social-icon linkedin"><i class="ph-fill ph-linkedin-logo"></i></a>
+                <a href="https://instagram.com/_.k1sia" target="_blank" rel="noopener noreferrer" title="Instagram"
+                    class="social-icon instagram"><i class="ph-fill ph-instagram-logo"></i></a>
+                <a href="https://twitter.com/colynce4" target="_blank" rel="noopener noreferrer" title="Twitter"
+                    class="social-icon twitter"><i class="ph-fill ph-twitter-logo"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Built with ❤️ by Collins Kisia. &copy; 2026 | <a href="https://github.com/mrnkisia-alt" target="_blank"
+                rel="noopener noreferrer">GitHub</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
